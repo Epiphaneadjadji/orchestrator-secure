@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   // ── CORS — restrict to your own domain in production ──────────────────────
   const allowedOrigins = [
-    "https://your-orchestrator.vercel.app", // replace with your actual Vercel URL
+    "https://orchestrator-secure.vercel.app", // replace with your actual Vercel URL
     "http://localhost:5173",                 // local dev
     "http://localhost:4173",                 // local preview
   ];
